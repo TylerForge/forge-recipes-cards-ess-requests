@@ -2,9 +2,7 @@
 
 <head>
 	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
-	<link href="https://forge.tylertech.com/styles/tcw-material-design.css" rel="stylesheet">
-	<script type="text/javascript" src="https://forge.tylertech.com/scripts/tyler-components-web-core.umd.min.js">
-
+	<link href="https://cdn.forge.tylertech.com/v1/libs/tcw/latest/tcw-material-design.css" rel="stylesheet">
 	</script>
 </head>
 
@@ -15,33 +13,35 @@
 				<div class="tyl-grid-container">
 					<div class="tyl-illustration">
 						<img
-              src="https://forge.tylertech.com/examples/illustration-library-assets/images/building%20zoning-spot.png"
+              src="https://cdn.forge.tylertech.com/v1/images/spot/land-zoning-spot.png" alt="Land Zoning""
               class="tyl-illustration" />
           </div>
-          <div class="tyl-date-request">
-            <tcw-label-value>
-              <div slot="label">07/18/2019</div>
-              <div slot="value">2 Pending timesheets to approve</div>
-            </tcw-label-value>
-          </div>
-          <div class="tyl-view-all">
-            <tcw-button>
-              <button type="button">
+						<div class="tyl-date-request">
+							<tcw-label-value>
+								<div slot="label">07/18/2019</div>
+								<div slot="value">2 Pending timesheets to approve</div>
+							</tcw-label-value>
+						</div>
+						<div class="tyl-view-all">
+							<tcw-button>
+								<button type="button">
                 <span>View all</span>
                 <i class="material-icons" aria-hidden="true">open_in_new</i>
               </button>
-            </tcw-button>
-          </div>
-        </div>
+							</tcw-button>
+						</div>
+					</div>
 
-      </tcw-card>
-    </div>
-  </tcw-scaffold>
-  <script src="https://forge.tylertech.com/scripts/custom-elements-es5-adapter.js"></script>
-  <script src="https://forge.tylertech.com/scripts/tyler-components-web-lib.min.js"></script>
-  <script>
-    TylerComponentsWeb.lib.defineComponents();
-  </script>
+			</tcw-card>
+		</div>
+	</tcw-scaffold>
+	<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.0/webcomponents-bundle.js"></script>
+	<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.0/custom-elements-es5-adapter.js"></script>
+	<script src="https://cdn.forge.tylertech.com/v1/libs/tcw-core/latest/tyler-components-web-core.min.js"></script>
+	<script src="https://cdn.forge.tylertech.com/v1/libs/tcw/latest/tyler-components-web-lib.min.js"></script>
+	<script>
+		TylerComponentsWeb.lib.defineComponents();
+	</script>
 </body>
 
 </html>
